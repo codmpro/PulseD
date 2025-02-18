@@ -14,7 +14,7 @@ const corsConfig = {
     credentials: true, 
   };
 const app = express();
-app.use(cors(corsConfig);
+app.use(cors(corsConfig));
 app.use(express.json());
 
 const PORT = process.env.PORT || 8000;
