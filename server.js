@@ -8,8 +8,13 @@ import Moralis from 'moralis';
 
 dotenv.config();
 
+const corsConfig = {
+    origin: 'https://pulselop.com, 
+    methods: ['GET', 'POST', 'PUT', 'DELETE'], 
+    credentials: true, 
+  };
 const app = express();
-app.use(cors());
+app.use(cors(corsConfig);
 app.use(express.json());
 
 const PORT = process.env.PORT || 8000;
