@@ -9,7 +9,7 @@ import Moralis from 'moralis';
 dotenv.config();
 
 const corsConfig = {
-    origin: 'https://erc20minter.com', 
+    origin: 'https://app.desgap.com', 
     methods: ['GET', 'POST', 'PUT', 'DELETE'], 
     credentials: true, 
   };
