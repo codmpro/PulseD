@@ -9,7 +9,7 @@ import Moralis from 'moralis';
 dotenv.config();
 
 const corsConfig = {
-    origin: 'https://app.dexgap.com', 
+    origin: 'https://dapp.dexgap.com', 
     methods: ['GET', 'POST', 'PUT', 'DELETE'], 
     credentials: true, 
   };
