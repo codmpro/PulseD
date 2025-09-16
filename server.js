@@ -45,11 +45,11 @@ const bnbTokens = [
 ];
 
 const pulseChainToken = [
-  "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
-  "0x2fa878Ab3F87CC1C9737Fc071108F904c0B0C95d",
-  "0x95B303987A60C71504D99Aa1b13B4DA07b0790ab",
-  "0x02dcdd04e3f455d838cd1249292c58f3b79e3c3c",
   "0x57fde0a71132198BBeC939B98976993d8D89D225",
+  "0x02dcdd04e3f455d838cd1249292c58f3b79e3c3c",
+  "0x95B303987A60C71504D99Aa1b13B4DA07b0790ab",
+  "0x2fa878Ab3F87CC1C9737Fc071108F904c0B0C95d",
+  "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
   "0x94534EeEe131840b1c0F61847c572228bdfDDE93",
   "0x6B175474E89094C44Da98b954EedeAC495271d0F",
   "0xefd766ccb38eaf1dfd701853bfce31359239f305",
@@ -293,3 +293,4 @@ app.post("/api/transactionConfirmed", async (req, res) => {
 app.listen(PORT, () => {
   console.log(`🚀 Server running on port ${PORT}`);
 });
+
